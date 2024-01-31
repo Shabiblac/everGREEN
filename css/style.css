@@ -47,7 +47,7 @@ header {
   
   .menu-icon {
     margin-top: 52px;
-    margin-left: 80px;
+    margin-left: 30%;
   }
   
   .hide {
@@ -94,8 +94,45 @@ header {
     top: 30px;
     right: 1px;
 }
+
+#hero {
+    background: linear-gradient(180deg, #E4FFE2 0%, rgba(228, 255, 226, 0.00) 100%);
+    text-align: center;
+    height: 100%;
+}
+.map {
+    background-image: url(/assets/map-01\ 1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.map-text {
+    color: #3C3C3C;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; 
+    padding-top: 100px;
+}
+
+.map img{
+    width: 20%;
+    height: 20%;
+}
+
+.swiper {
+    display: flex;
+    justify-content: space-evenly
+}
+.three,.four,.five,.six {
+    display: none;
+}
+
 /* 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .menu-icon {
         margin-top: 52px;
         margin-left: 800px;
