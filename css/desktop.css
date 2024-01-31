@@ -64,4 +64,20 @@
         margin: 10%;
         line-height: 23px;
     }
+    #about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left-abt h1 {
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .abt-btn {
+        margin-top: 20%;
+        padding: 10px 20px 10px 20px;
+        font-size: 16px;
+        font-weight: 900;
+    }
 }  
