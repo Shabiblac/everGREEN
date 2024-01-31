@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* HEADER STYLING */
 
 header {
     width: 100%;
-    background: linear-gradient(180deg, #E4FFE2 0%, rgba(228, 255, 226, 0.00) 100%);
+    background: #E4FFE2;
     display: flex;
     justify-content: space-between;
 }
