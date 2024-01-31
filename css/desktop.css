@@ -50,11 +50,18 @@
     }
 
 
-    .one,.three,.five {
+    .one,.three,.four {
         margin-top: 30px;
     }
     
     .three img,.four img {
         border-radius: 15px;
+    }
+    .hero-text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        margin: 10%;
+        line-height: 23px;
     }
 }  

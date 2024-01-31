@@ -125,10 +125,28 @@ header {
 
 .swiper {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-around
 }
 .three,.four,.five,.six {
     display: none;
+}
+
+.hero-text {
+    color: #000;
+    text-align: center;
+    font-family: "Exo 2";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 200;
+    padding: 5%;
+}
+
+#info {
+    background-image: url(/assets/places-01\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 /* 
