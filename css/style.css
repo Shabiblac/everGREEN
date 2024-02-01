@@ -127,9 +127,7 @@ header {
     display: flex;
     justify-content: space-around
 }
-.three,.four,.five,.six {
-    display: none;
-}
+
 
 .hero-text {
     color: #000;
@@ -280,6 +278,43 @@ header {
 #insight h4 {
   margin-top: 3%;
   margin-bottom: 5%;
+}
+
+footer {
+  background-color: #E4FFE2;
+  color: #3C3C3C;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.footer-link ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5% 5% 5%;
+  padding-top: 5%;
+}
+
+.footer-link li a{
+  color: #3C3C3C;
+  padding: 10% 5% 0 5%;
+}
+
+footer img {
+  margin-bottom: 5%;
+}
+
+.footer-cr {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #319725;
+}
+
+.footer-cr p {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 48px;
 }
 
 
