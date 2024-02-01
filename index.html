@@ -4,8 +4,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evergreen Adventures</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- font awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="nav-cover">
+            <div class="menu">
+                <a href="#header" class="logo"><img src="./assets/eragens logo 1.png" alt="logo"></a>
+                <i class='bx bx-menu-alt-right bx-md menu-icon' style='color:#080808' ></i>
+            </div>
+            <div class="mobile-menu hide">
+                <ul>
+                    <li><a href="index.html" class="menu-link">Home</a></li>
+                    <li><a href="#" class="menu-link">About</a></li>
+                    <li><a href="#" class="menu-link">Services</a></li>
+                    <li><a href="#" class="menu-link">Destination</a></li>
+                    <li><a href="#" class="menu-link">Portfolio</a></li>
+                    <li><a href="#" class="menu-link">Testimonial</a></li>
+                    <li><a href="#" class="menu-link">Blog</a></li>
+                    <li><a href="#" class="menu-link">Contact Us</a></li>
+                </ul>
+                <div class="cancle-mobile hide">
+                    <i class='bx bx-x bx-md bx-border-circle' style='color:#fdf7f7'  ></i>
+                </div>
+            </div>
+            <div class="desktop-nav">
+                <a href="#header" class="logo"><img src="./assets/eragens logo 1.png" alt="logo"></a>
+                <div class="desktop-menu">
+                    <a href="index.html">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Destination</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Testimonial</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <section id="hero">
+        <div class="map">
+            <h1 class="map-text">Custom travel experiences <br> made just for you</h1>
+            <img src="/assets/play.gif" alt="GIF">
+        </div>
+        <div class="swiper">
+            <!-- Slides -->
+            <div class="slide one "><img src="./assets/Rectangle 3.png" alt="Image 1"></div>
+            <div class="slide two"><img src="./assets/Rectangle 4.png" alt="Image 2"></div>
+            <div class="slide three"><img src="./assets/image 1.png" alt="Image 3"></div>
+            <!-- <div class="slide four"><img src="./assets/image 2.png" alt="Image 3"></div> -->
+            <div class="slide five"><img src="./assets/Rectangle 19.png" alt="Image 3"></div>
+            <div class="slide six"><img src="./assets/Rectangle 20.png" alt="Image 4"></div>
+        </div>
+    </section>
+    <section id="info">
+        <p class="hero-text">
+            Welcome to EraGenadventures, where travel transcends the ordinary and becomes a personalized
+             masterpiece tailored exclusively for you. We redefine luxury and leisure, ensuring every journey
+              is a symphony of your desires and our expertise. As a bespoke travel hospitality 
+            company, we take pride in curating experiences that transcend the boundaries of standard travel.
+        </p>
+    </section>
+    <section id="about">
+        <div class="left-abt">
+            <h1>About</h1>
+            <p>EraGen Adventures is a leading bespoke travel hospitality company that redefines the
+                travel experience by offering tailor-made journeys designed to meet the unique preferences
+                and desires of our clients. We go beyond the conventional travel agency model,
+                providing personalized, immersive, and unforgettable experiences for every traveler.
+            </p>
+                <button class="abt-btn">Read More</button>
+        </div>
+        <div class="right-abt">
+            <img src="/assets/Rectangle 9.png" alt="">
+        </div>
+    </section>
+    <section id="services">
+        <h1>Our service</h1>
+        <div class="service-container">
+            <div class="container-card">
+                <img src="/assets/Rectangle 23.png" alt="image">
+                <h3>Custom Itinerary Planning</h3>
+                <p>We specialize in creating bespoke itineraries that reflect the interests, preferences,
+                     and pace of our clients. From cultural excursions to off-the-beaten-path adventures,
+                     our itineraries are meticulously crafted to ensure a seamless and enriching travel 
+                     experience.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/Rectangle 24.png" alt="image">
+                <h3>Travel Consultancy</h3>
+                <p>Benefit from the expertise of our travel consultants who are passionate about crafting 
+                    exceptional experiences. Whether you're seeking destination advice, travel tips, or
+                     insider insights, our team is dedicated to enhancing your travel journey from start to finish.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/Rectangle 25.png" alt="image">
+                <h3>Concierge Services</h3>
+                <p>Our dedicated concierge services are designed to cater to every aspect of your journey. 
+                    From securing last-minute reservations to providing on-the-go assistance, our team ensures 
+                    that every moment of your trip is seamless and stress-free.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/Rectangle 26.png" alt="image">
+                <h3>Exclusive Experiences</h3>
+                <p>Elevate your travel experience with our exclusive, handpicked activities. Whether it's a 
+                    private tour of historical landmarks, a culinary journey through local delicacies, 
+                    or adventure-packed excursions, we provide experiences that go beyond the ordinary.</p>
+            </div>
+        </div>
+        <button>See More Services</button>
+    </section>
+    <section id="why-us">
+        <h1>Why Choose <br>  EraGen Adventures</h1>
+        <div class="whyus-container">
+            <div class="container-card">
+                <img src="/assets/hr-person 1.png" alt="icon">
+                <h3  one>Personalization</h3>
+                <p>Our commitment to creating unique, personalized experiences sets us apart.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/circle-star 1.png" alt="icon">
+                <h3>Expertise</h3>
+                <p>With a team of experienced travel consultants, we bring in-depth knowledge and a passion for exploration to every itinerary.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/bullseye-arrow 1.png" alt="icon">
+                <h3>Attention to Detail</h3>
+                <p>We leave no stone unturned in ensuring that every aspect of your journey is meticulously planned and executed.</p>
+            </div>
+            <div class="container-card">
+                <img src="/assets/earth-europa 1.png" alt="icon">
+                <h3>Global Network</h3>
+                <p>With a vast network of partners and collaborators worldwide, we offer access to exclusive opportunities and hidden gems.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
