@@ -118,4 +118,32 @@
         margin-bottom: 10%;
         padding: 10px 20px 10px 20px;
     }
+
+    #why-us h1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .whyus-container {
+        display: flex;
+        padding: 8%;
+        margin-top: 2%;
+    }
+
+    /* .container-card {
+        margin: 2%;
+    } */
+
+    .container-card h3 {
+        margin-top: 10%;
+    }
+    
+    .one {
+        margin-top: 13%;
+
+    }
+
+    .container-card p {
+    margin-top: 1%;
+    }
 }  

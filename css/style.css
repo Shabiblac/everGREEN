@@ -228,12 +228,18 @@ header {
 }
 
 
+#why-us {
+  text-align: center;
+}
 
+#why-us h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #3C3C3C;
+}
 
-/* 
-@media only screen and (max-width: 768px) {
-    .menu-icon {
-        margin-top: 52px;
-        margin-left: 800px;
-      }
-} */
+.whyus-container {
+  margin-top: 7%;
+}
