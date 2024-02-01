@@ -81,13 +81,7 @@
         font-weight: 900;
     }
 
-    #services {
-        text-align: center;
-    }
-
     #services h1 {
-        text-align: center;
-        color: #3B3B3B;
         font-size: 20px;
         font-weight: 900;
         margin: 5% 0 5% 0;
@@ -100,7 +94,6 @@
     
     .container-card {
         width: 25%;
-        text-align: center;
     }
 
     .container-card h3 {
@@ -115,20 +108,12 @@
         width: 88%;
         font-size: 16px;
         font-weight: 400;
-        line-height: 23px;
-        letter-spacing: 0em;
-        text-align: center;
 
     }
 
     #services button {
         font-size: 16px;
         font-weight: 900;
-        text-align: center;
-        color: #319725;
-        background-color: white;
-        border: 1px solid #319725;
-        border-radius: 5px;
         margin-top: 7%;
         margin-bottom: 10%;
         padding: 10px 20px 10px 20px;
