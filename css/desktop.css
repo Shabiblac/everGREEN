@@ -130,10 +130,6 @@
         margin-top: 2%;
     }
 
-    /* .container-card {
-        margin: 2%;
-    } */
-
     .container-card h3 {
         margin-top: 10%;
     }
@@ -145,5 +141,41 @@
 
     .container-card p {
     margin-top: 1%;
+    }
+
+    #insight {
+        text-align: center;
+        color: #3C3C3C;
+    }
+
+    #insight h1 {
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    .insight-container {
+        display: flex;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .insight-card {
+        padding: 5%;
+    }
+    .insight-card h3, h4 {
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .insight-card p {
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0;
+    }
+
+    #insight h4 {
+        margin-top: 3%;
+        margin-bottom: 5%;
     }
 }  
