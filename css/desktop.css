@@ -45,6 +45,11 @@
         padding-top: 120px;
     }
 
+    .swiper {
+        display: flex;
+        justify-content: space-around
+    }
+
     .one,.three,.four {
         margin-top: 30px;
     }
@@ -114,6 +119,15 @@
         padding: 10px 20px 10px 20px;
     }
 
+    #illustration p {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 43px;
+        padding: 0 10% 0 10%;
+        margin-top: 36px;
+      }
+
     #why-us h1 {
         font-size: 40px;
         font-weight: 900;
@@ -174,5 +188,8 @@
         margin-bottom: 5%;
     }
 
-    
+    .footer-link ul {
+        display: flex;
+        justify-content: space-between;
+    }
 }  
